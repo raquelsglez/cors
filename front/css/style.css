@@ -1,0 +1,68 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    margin-bottom: 20px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input label{
+    margin-bottom: 10px;
+}
+
+.input div input, .input div button {
+    padding: 10px;
+    border: none;
+    border-radius: 0.5em;
+}
+
+.input div input{
+    background-color: rgb(255, 215, 252);
+}
+
+.input div button{
+    background-color: rgb(255, 0, 238);
+    transition: backgroundcolor, transform 1s linear;
+}
+
+.input div button:hover{
+    background-color: rgb(184, 5, 172);
+    transform: scale(1.05);
+    transition: backgroundcolor, transform 1s linear;
+}
+
+#characterInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info h2{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.info p{
+    margin: 3px;
+}
+
+#characterInfo img{
+    border-radius: 500px;
+    margin-top: 20px;
+}
